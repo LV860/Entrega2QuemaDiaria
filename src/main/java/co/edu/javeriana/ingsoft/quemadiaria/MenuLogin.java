@@ -23,6 +23,7 @@ public class MenuLogin extends Application {
     public void start(Stage primaryStage) throws IOException {
         this.primaryStage = primaryStage;
         showLoginScreen();
+        System.out.println("hola");
     }
 
     public void showLoginScreen() throws IOException {
